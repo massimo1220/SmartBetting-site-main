@@ -1,0 +1,59 @@
+html,
+body,
+#root {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 77vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: white !important;
+}
+
+.match-paper{
+  text-align: "center";
+  padding: '20px';
+  /* color: theme.palette.text.secondary, */
+}
+
+.page-wrapper{
+  flex-grow: 1;
+}
+
+.place-bet-draw{
+  margin-top: 30px;  
+  border-radius: 10px;
+  border: 1px solid rgba(180,180 ,180, 1);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.place-bet-draw:hover{
+  cursor: pointer;
+}
+
+.busd-price{
+  /* position: absolute;
+  top: 10px;
+  right: 15px; */
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 8px;
+  background-color: rgb(245, 131, 0);
+}
+
+.asset-list-item:hover{
+  background-color: rgba(80,80 ,80, .5);
+  cursor: pointer;
+}

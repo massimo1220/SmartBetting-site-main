@@ -1,8 +1,5 @@
 # SmartBet
 
-
-[Project Image](project-image-url)
-
 > A decentralized betting and farming platform
 
 ---
